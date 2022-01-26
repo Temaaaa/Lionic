@@ -1,0 +1,327 @@
+/* Общие классы */
+
+.text-center {
+    text-align: center;
+}
+.text-color {
+    color: #787878;
+}
+
+.section-heading {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+html {
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.btn {
+    background-color: #3172b9;
+    padding: 15px 16px;
+    line-height: 1;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    
+}
+.nav-list {
+    display: flex;
+    
+}
+img {
+    height: 100%;
+}
+header {
+    height: 110px;
+}
+.header-icon {
+    margin-right: auto;
+}
+header .btn {
+    margin-left: 80px;
+}
+.nav-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+.header-container {
+    height: 100%;
+}
+
+/* Hero */
+
+.section-hero-heading {
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.hero-container {
+    padding-top: 125px;
+    padding-bottom: 130px;
+}
+.hero-content {
+    max-width: 46%;
+}
+.section-hero-description {
+    color: #787878;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.section-hero-btn-description {
+    margin-top: 20px;
+    color: #787878;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: 17px;
+}
+.section-hero .btn {
+    padding: 20px 50px;
+    line-height: 1;     
+}
+.section-hero-ssl-icon {
+    background-image: url(images/Shield-icon.png);
+    width: 14px;
+    height: 17px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.section-hero {
+    background-image: url(images/Base.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    border-top: 1px solid #e4e4e4;
+}
+
+/* What We Do */
+
+.section-description {
+    margin-bottom: 55px;
+}
+
+.container-do {
+    margin-top: 225px;
+    margin-bottom: 200px;
+}
+.section-do-item {
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 25px 64px 25px;
+    cursor: pointer;
+}
+.section-do-item:not(:last-child){
+    margin-right: 30px;
+}
+.section-do-item-description {
+    max-width: 240px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #787878;
+}
+.section-do-list {
+    display: flex;
+}
+.section-do-icon {
+    margin-bottom: 33px;
+}
+.section-do-item:hover, section-do-item:focus {
+    background-color: #4086d3;
+}
+.section-do-item:hover .section-do-item-description{
+    color: white;
+}
+
+.section-do-icon {
+    fill: rgb(49, 114, 185);
+}
+
+.section-do-item:hover .section-do-icon{
+    fill: rgb(255, 255, 255);
+}
+
+.section-do-item:hover .section-do-item-heading{
+    color: white;
+}
+
+
+/* Our Happy Clients */
+
+
+
+.section-reviews {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.container-reviews{
+    padding-top: 95px;
+    padding-bottom: 160px;
+}
+.reviews_contact-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 1px solid rgb(0, 162, 255);
+    background-color: rgb(56, 56, 56);
+    
+}
+.section-reviews-text {
+    font-size: 14px;
+    color: #787878;
+    line-height: 1.7;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.section-reviews-list {
+    display: flex;
+
+
+}
+.section-reviews-item {
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 57px 54px 34px 37px;
+}
+.section-reviews-item:not(:last-child){
+    margin-right: 30px;
+}
+.reviews-contact {
+    display: flex;
+    align-items: center;
+}
+.reviews_contact-icon {
+    margin-right: 18px;
+}
+.section-reviews-contact {
+    color: #787878;
+    font-size: 14px;
+}
+.reviews-name{
+    color: black;
+    line-height: 1.4;
+    font-size: 17px;
+}
+/* Contacts */
+.contacts-icon-phone {
+    background-image: url(images/phone.png);
+    width: 26px;
+    height: 26px;
+}
+.contacts-icon-gps {
+    background-image: url(images/gps.png);
+    width: 19px;
+    height: 26px;
+}
+.contacts-icon-email {
+    background-image: url(images/mail.png);
+    width: 29px;
+    height: 19px;
+}
+.container-contacts {
+    padding-top: 70px;
+    padding-bottom: 170px;
+}
+.section-contacts-list {
+    margin-top: 120px;
+}
+
+.section-contacts-list {
+    display: flex;
+    justify-content: space-between;
+}
+.section-contacts-item-name {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.section-contacts-description {
+    line-height: 1.5;
+    font-size: 14px;
+    color: #787878;
+}
+.section-contacts-description a {
+    color: #787878;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.feedback-form {
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-text {
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: 1px solid #e4e4e4;
+    padding-left: 30px;
+}
+.btn-form {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+}
+input::placeholder {
+    font-weight: 300;
+}
+.section-feedback-form {
+    border-top: solid 1px #e4e4e4;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-bottom: solid 1px #e4e4e4;
+
+}
+.container-feedback-form {
+    max-width: 1070px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+.input-checkbox {
+    margin: 40px 20px;
+}
+.checkbox-text {
+    flex-basis: 94%;
+}
+
+
+
